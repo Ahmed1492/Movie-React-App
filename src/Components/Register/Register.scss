@@ -1,0 +1,24 @@
+.inputs {
+  margin: auto !important;
+  margin-top: 1rem !important;
+
+  form {
+    .myInput {
+      padding: 6px;
+      border-radius: 4px;
+      color: #fff !important;
+
+      input {
+        background-color: transparent !important;
+      }
+    }
+
+    label {
+      margin: 2rem 0 0 0;
+    }
+  }
+}
+
+.registerd {
+  display: none;
+}

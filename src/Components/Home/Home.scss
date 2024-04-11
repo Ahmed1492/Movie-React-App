@@ -1,0 +1,57 @@
+.innerDiv {
+  cursor: pointer;
+}
+
+.topLine {
+  width: 90px;
+  background-color: rgb(137, 133, 133);
+  height: 2px;
+}
+
+.bottomLine {
+  width: 100%;
+  height: 2px;
+}
+
+
+.voteAverage {
+  position: absolute;
+  right: 12px;
+  top: 0;
+  padding: 17px 12px;
+  font-weight: 500;
+
+}
+
+$spinner-size: 78px;
+$light-blue: #eaf5fe;
+$blue: #5597d4;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.spinner {
+  width: $spinner-size;
+  height: $spinner-size;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -($spinner-size/ 2);
+  margin-left: -($spinner-size/ 2);
+  border-radius: 50%;
+  border: 5px solid #eaf5fe;
+  border-right-color: $blue;
+  animation: rotateSpinner 800ms linear infinite;
+}
+
+@keyframes rotateSpinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
