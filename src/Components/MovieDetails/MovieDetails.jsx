@@ -9,6 +9,7 @@ export const MovieDetails = () => {
   const getFixedNum = (num) => {
     return num.toFixed(2);
   };
+  console.log("heelo");
   let getDetails = async () => {
     try {
       let myResponse = await axios.get(
