@@ -4,6 +4,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 let firstTermGettingImage = "https://image.tmdb.org/t/p/original";
 
+console.log("hello");
 export const Home = () => {
   const [movies, setMovies] = useState([]);
   const [tvShows, setTvShows] = useState([]);
