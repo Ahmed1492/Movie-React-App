@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { MovieDetails } from "../MovieDetails/MovieDetails";
 import { Link } from "react-router-dom";
 
 export const Movies = () => {
